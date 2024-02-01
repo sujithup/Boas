@@ -1,7 +1,12 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Hero from "./pages/Home/Hero";
-import Stats from "./pages/Home/Stats";
+import Billing from "./sections/Billing";
+import Business from "./sections/Business";
+import CardDeal from "./sections/CardDeal";
+import Hero from "./sections/Hero";
+import Stats from "./sections/Stats";
+import Testimonial from "./sections/Testimonial";
 import styles from "./styles/styles";
 
 function App() {
@@ -20,9 +25,14 @@ function App() {
       </div>
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Stats/>
-      </div>
+        <div className={`${styles.boxWidth}`}>
+          <Stats />
+          <Business />
+          <Billing/>
+          <CardDeal/>
+          <Testimonial/>
+          <Footer/>
+        </div>
       </div>
     </div>
   );
