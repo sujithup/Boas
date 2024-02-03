@@ -2,7 +2,7 @@
 
 This project is a React.js-based website for a fictional bank, developed using Create React App and styled with Tailwind CSS. The website features modern design and animations created based on a design provided in Figma(https://www.figma.com/file/6l2oSsNTcG8zmrSxXnK2ig/HooBank-(Community)?type=design&node-id=0%3A1&mode=design&t=OZfIl7ITZcyxgq0w-1).
 
-# Demo:
+## Demo:
 
 https://sujithup.github.io/CreditCard/
 
